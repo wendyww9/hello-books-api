@@ -25,3 +25,5 @@ def create_app(config=None):
     app.register_blueprint(authors_bp)
 
     return app
+
+app = create_app()
